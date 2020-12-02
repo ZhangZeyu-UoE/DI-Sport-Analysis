@@ -1,0 +1,730 @@
+//Arsenal Diversity
+option = {
+    title: {
+        text: 'Arsenal: Rank vs Diversity'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data: ['rank', 'age_div', 'club_div', 'national_div']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['2009/2010', '2', '3', '4', '5', '6', '7', '8', '9', '2018/2019']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name: 'rank',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.743 , 0.186, -0.743,  0.186,  0.186, -0.743, -1.671,  0.186,  2.043,  1.114]
+        },
+        {
+            name: 'age_div',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.6363636363636358, -1.545454545454545, -0.6363636363636358, -0.6363636363636358, -0.6363636363636358, 0.27272727272727343, 2.0909090909090917, 0.27272727272727343, 1.1818181818181825, 0.27272727272727343 ]
+        },
+        {
+            name: 'club_div',
+            type: 'line',
+            //stack: '总量',
+            data: [-1.8240172618356685, -1.4231343471465105, 0.18039731161012074, 0.38083876895469965, 0.18039731161012074, 1.5834875130221733, 1.1826045983330153, -0.6213685177681949, -0.020044145734458178, 0.38083876895469965]
+        },
+        {
+            name: 'national_div',
+            type: 'line',
+            //stack: '总量',
+            data: [0.06608186004550874, 0.06608186004550874, 1.3877190609556884, 0.7269004605005985, -1.255555340864671, -0.594736740409581, 0.06608186004550874, -1.9163739413197607, 0.06608186004550874, 1.3877190609556884]
+        }
+    ]
+};
+
+
+//Tottenham Diversity
+option = {
+    title: {
+        text: 'Tottenham: Rank vs Diversity'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data: ['rank', 'age_div', 'club_div', 'national_div']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['2009/2010', '2', '3', '4', '5', '6', '7', '8', '9', '2018/2019']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name: 'rank',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.088, 0.792, -0.088,  0.792,  1.673,  0.792, -0.968, -1.849, -0.968, -0.088]
+        },
+        {
+            name: 'age_div',
+            type: 'line',
+            //stack: '总量',
+            data: [1.75, -0.75, -0.75,  0.5 ,  0.5 ,  0.5 , -2 ,  0.5 , -0.75, 0.5]
+        },
+        {
+            name: 'club_div',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.31 , -0.516, -0.31 ,  0.929,  2.168,  0.103,  0.929, -1.136, -0.723, -1.136]
+        },
+        {
+            name: 'national_div',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.212, -0.212, -2.328, -0.917,  1.199,  1.199,  0.494, -0.212, 0.494,  0.494]
+        }
+    ]
+};
+
+
+//Chelsea Diversity
+option = {
+    title: {
+        text: 'Chelsea: Rank vs Diversity'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data: ['rank', 'age_div', 'club_div', 'national_div']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['2009/2010', '2', '3', '4', '5', '6', '7', '8', '9', '2018/2019']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name: 'rank',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.928,-0.557,  0.928, -0.186, -0.186, -0.928,  2.414, -0.928,  0.557, -0.186]
+        },
+        {
+            name: 'age_div',
+            type: 'line',
+            //stack: '总量',
+            data: [0,  1.826, -0.913,  0, -0.913,  0, -0.913, -0.913, 1.826,  0]
+        },
+        {
+            name: 'club_div',
+            type: 'line',
+            //stack: '总量',
+            data: [-1.926, -1.383, -0.977, -0.027,  1.058,  0.787,  0.515,  0.922, 0.38 ,  0.651]
+        },
+        {
+            name: 'national_div',
+            type: 'line',
+            //stack: '总量',
+            data: [1.557,  1.557, -0.082, -0.082,  0.737, -0.082, -0.901, -1.72 , -0.901, -0.082]
+        }
+    ]
+};
+
+
+//Newcastle Diversity
+option = {
+    title: {
+        text: 'Newcastle: Rank vs Diversity'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data: ['rank', 'age_div', 'club_div', 'national_div']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['2009/2010', '2', '3', '4', '5', '6', '7', '8', '9', '2018/2019']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name: 'rank',
+            type: 'line',
+            //stack: '总量',
+            data: [1.418, -0.431, -1.87, 0.39, -0.842, 0.185, 0.801, 1.418, -0.842, -0.226]
+        },
+        {
+            name: 'age_div',
+            type: 'line',
+            //stack: '总量',
+            data: [0.692,  1.462,  0.692, -0.846,  0.692, -0.077, -0.077, -0.077, -0.077, -2.385]
+        },
+        {
+            name: 'club_div',
+            type: 'line',
+            //stack: '总量',
+            data: [-1.512, -0.339, -0.078, -0.209, -0.73 , -0.078, -0.6,  0.052, 2.268,  1.225]
+        },
+        {
+            name: 'national_div',
+            type: 'line',
+            //stack: '总量',
+            data: [-1.623, -0.232, -0.232, -0.696, -0.696, -0.232,  0.696, -0.232,1.159,  2.087]
+        }
+    ]
+};
+//Arsenal Current Cohesion
+option = {
+    title: {
+        text: 'Asenal: Current Cohesion'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data: ['rank', 'curr_16', 'curr_14', 'curr_12', 'curr_10', 'curr_8']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['2009/2010', '2', '3', '4', '5', '6', '7', '8', '9', '2018/2019']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name: 'rank',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.928,-0.557,  0.928, -0.186, -0.186, -0.928,  2.414, -0.928,  0.557, -0.186]
+        },
+        {
+            name: 'curr_16',
+            type: 'line',
+            //stack: '总量',
+            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+            name: 'curr_14',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.655,  1.528, -0.655, -0.655,  1.528, -0.655,  1.528, -0.655, -0.655, -0.655]
+        },
+        {
+            name: 'curr_12',
+            type: 'line',
+            //stack: '总量',
+            data: [0.333,  2.   , -1.333,  0.333,  0.333, -1.333,  0.333,  0.333, 0.333, -1.333]
+        },
+        {
+            name: 'curr_10',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.143,  1.286, -0.143, -0.143,  1.286, -1.571, -0.143,  1.286, -0.143, -1.571]
+        },
+        {
+            name: 'curr_8',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.143,  1.286, -0.143, -0.143,  1.286, -1.571, -0.143, -0.143, 1.286, -1.571]
+        }
+    ]
+};
+
+
+//Tottenham Current Cohesion
+option = {
+    title: {
+        text: 'Totteham: Current Cohesion'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data: ['rank', 'curr_16', 'curr_14', 'curr_12', 'curr_10', 'curr_8']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['2009/2010', '2', '3', '4', '5', '6', '7', '8', '9', '2018/2019']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name: 'rank',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.088,0.792, -0.088,  0.792,  1.673,  0.792, -0.968, -1.849, -0.968, -0.088]
+        },
+        {
+            name: 'curr_16',
+            type: 'line',
+            //stack: '总量',
+            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+            name: 'curr_14',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.469, -0.469, -0.469, -0.469, -0.469, -0.469, -0.469, -0.469,
+        1.093,  2.655]
+        },
+        {
+            name: 'curr_12',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.75, -0.75, -0.75, -0.75, -0.75,  0.5 , -0.75,  0.5 ,  1.75, 1.75]
+        },
+        {
+            name: 'curr_10',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.469, -0.469, -0.469, -0.469, -0.469, -0.469, -0.469, -0.469, 1.093,  2.655]
+        },
+        {
+            name: 'curr_8',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.896,  0.384, -0.896, -0.896, -0.896, -0.896,  0.384,  0.384, 1.664,  1.664]
+        }
+    ]
+};
+
+
+//Chelsea Current Cohesion
+option = {
+    title: {
+        text: 'Chelsea: Current Cohesion'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data: ['rank', 'curr_16', 'curr_14', 'curr_12', 'curr_10', 'curr_8']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['2009/2010', '2', '3', '4', '5', '6', '7', '8', '9', '2018/2019']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name: 'rank',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.928,-0.557,  0.928, -0.186, -0.186, -0.928,  2.414, -0.928,  0.557, -0.186]
+        },
+        {
+            name: 'curr_16',
+            type: 'line',
+            //stack: '总量',
+            data: [0.5, -2 , -2,  0.5,  0.5,  0.5,  0.5,  0.5,  0.5,  0.5]
+        },
+        {
+            name: 'curr_14',
+            type: 'line',
+            //stack: '总量',
+            data: [0,0,0,0,0,0,0,0,0,0]
+        },
+        {
+            name: 'curr_12',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.5, -0.5, -0.5, -0.5, -0.5, -0.5,  2. ,  2. , -0.5, -0.5]
+        },
+        {
+            name: 'curr_10',
+            type: 'line',
+            //stack: '总量',
+            data: [-1.093, -1.093, -1.093,  0.469,  0.469, -1.093,  0.469,  2.03 , 0.469,  0.469]
+        },
+        {
+            name: 'curr_8',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.186, -0.186, -2.043, -0.186, -0.186, -0.186, -0.186,  1.671, -0.186,  1.671]
+        }
+    ]
+};
+
+
+//Newcastle Current Cohesion
+option = {
+    title: {
+        text: 'Newcastle: Current Cohesion'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data: ['rank', 'curr_16', 'curr_14', 'curr_12', 'curr_10', 'curr_8']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['2009/2010', '2', '3', '4', '5', '6', '7', '8', '9', '2018/2019']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name: 'rank',
+            type: 'line',
+            //stack: '总量',
+            data: [1.418, -0.431, -1.87, 0.39, -0.842, 0.185, 0.801, 1.418, -0.842, -0.226]
+        },
+        {
+            name: 'curr_16',
+            type: 'line',
+            //stack: '总量',
+            data: [0,0,0,0,0,0,0,0,0,0]
+        },
+        {
+            name: 'curr_14',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.333, -0.333, -0.333,  3, -0.333, -0.333, -0.333, -0.333, -0.333, -0.333]
+        },
+        {
+            name: 'curr_12',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.5, -0.5, -0.5,  2 , -0.5, -0.5, -0.5, -0.5,  2 , -0.5]
+        },
+        {
+            name: 'curr_10',
+            type: 'line',
+            //stack: '总量',
+            data: [0.655,  0.655, -1.528,  0.655,  0.655,  0.655,  0.655, -1.528, 0.655, -1.528]
+        },
+        {
+            name: 'curr_8',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.5, -0.5, -0.5,  2 , -0.5, -0.5, -0.5, -0.5, -0.5,  2]
+        }
+    ]
+};
+
+
+//Arsenal Other Diversity
+option = {
+    title: {
+        text: 'Arsenal: Rank vs Other Cohesion'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data: ['rank', 'past_co', 'national_co']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['2009/2010', '2', '3', '4', '5', '6', '7', '8', '9', '2018/2019']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name: 'rank',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.743 , 0.186, -0.743,  0.186,  0.186, -0.743, -1.671,  0.186,  2.043,  1.114]
+        },
+        {
+            name: 'past_co',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.726, -0.726, -0.726, -0.167,  0.391,  0.391,  0.391, -0.726, -0.726,  2.623]
+        },
+        {
+            name: 'national_co',
+            type: 'line',
+            //stack: '总量',
+            data: [-1.188, -0.66 , -1.056, -0.792,  1.452,  0.528,  0.66 ,  0.132, 1.716, -0.792]
+        }
+    ]
+};
+
+
+//Tottenham Other Diversity
+option = {
+    title: {
+        text: 'Tottenham: Rank vs Other Cohesion'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data: ['rank', 'past_co', 'national_co']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['2009/2010', '2', '3', '4', '5', '6', '7', '8', '9', '2018/2019']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name: 'rank',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.088, 0.792, -0.088,  0.792,  1.673,  0.792, -0.968, -1.849, -0.968, -0.088]
+        },
+        {
+            name: 'past_co',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.418,  0.179, -0.418, -2.207, -0.418, -0.418,  0.776,  1.372, 1.372,  0.179]
+        },
+        {
+            name: 'national_co',
+            type: 'line',
+            //stack: '总量',
+            data: [-1.556, -0.598, -0.598, -0.359,  0.12 ,  0.598, -0.12 , -0.12,0.12 ,  2.514]
+        }
+    ]
+};
+
+
+//Chelsea Other Cohesion
+option = {
+    title: {
+        text: 'Chelsea: Rank vs Other Cohesion'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data: ['rank', 'past_co', 'national_co']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['2009/2010', '2', '3', '4', '5', '6', '7', '8', '9', '2018/2019']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name: 'rank',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.928,-0.557,  0.928, -0.186, -0.186, -0.928,  2.414, -0.928,  0.557, -0.186]
+        },
+        {
+            name: 'past_co',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.931, -0.931, -0.931, -0.931, -0.931,  0.448,  1.138,  1.828,
+        0.793,  0.448]
+        },
+        {
+            name: 'national_co',
+            type: 'line',
+            //stack: '总量',
+            data: [-1.593, -1.455, -1.044, -0.357,  0.33 ,  0.604,  1.428,  1.016, 0.467,  0.604]
+        }
+    ]
+};
+
+
+//Newcastle Other Cohesion
+option = {
+    title: {
+        text: 'Newcastle: Rank vs Other Cohesion'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data: ['rank', 'past_co', 'national_co']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['2009/2010', '2', '3', '4', '5', '6', '7', '8', '9', '2018/2019']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name: 'rank',
+            type: 'line',
+            //stack: '总量',
+            data: [1.418, -0.431, -1.87, 0.39, -0.842, 0.185, 0.801, 1.418, -0.842, -0.226]
+        },
+        {
+            name: 'past_co',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.942,  0.188, -0.942, -0.942,  2.448, -0.188, -0.188,  0.188, -0.565,  0.942]
+        },
+        {
+            name: 'national_co',
+            type: 'line',
+            //stack: '总量',
+            data: [-0.631, -0.33,  0.27 ,  2.372,  0.27 , -0.33 ,  0.871, -0.33,-0.631, -1.531]
+        }
+    ]
+};
