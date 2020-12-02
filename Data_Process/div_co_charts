@@ -733,7 +733,7 @@ option = {
 //Age Div Compare
 option = {
     title: {
-        text: 'Club Diversity Comparison'
+        text: 'Age Diversity Comparison'
     },
     tooltip: {
         trigger: 'axis'
