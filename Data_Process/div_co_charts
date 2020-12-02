@@ -851,7 +851,7 @@ option = {
 //National Div Compare
 option = {
     title: {
-        text: 'Club Diversity Comparison'
+        text: 'National Diversity Comparison'
     },
     tooltip: {
         trigger: 'axis'
@@ -1029,7 +1029,7 @@ option = {
 //Curr Co 12
 option = {
     title: {
-        text: 'Current Cohesion (14) Comparison'
+        text: 'Current Cohesion (12) Comparison'
     },
     tooltip: {
         trigger: 'axis'
