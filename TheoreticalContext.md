@@ -9,3 +9,6 @@ Possible explanation: Berman et al. (2002) - Tacit knowledge.
 Grund (2016) - application to football
 Possible explanation by Ruef et al., (2003)
 Into Game Changer summary
+
+## Note
+See doc for first draft
