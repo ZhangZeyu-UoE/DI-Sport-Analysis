@@ -4,6 +4,10 @@ This is the data challenge project - Sport Analysis in UoE Design Informatics.
 ## Dataset Description
 The data describes 44,259 football players and the teams they represented from 2000/2001 to 2018/2019 in three files: person.csv, membership.csv and stat.csv. Each record contains a unique player id, allowing efficient indexing of player information between datasets.
 
+**Dataset links**: [membership](https://raw.githubusercontent.com/ZhangZeyu-UoE/DI-Sport-Analysis/main/Dataset_Compressed/membership.bz2),
+[person](https://raw.githubusercontent.com/ZhangZeyu-UoE/DI-Sport-Analysis/main/Dataset_Compressed/person.bz2),
+[stat](https://raw.githubusercontent.com/ZhangZeyu-UoE/DI-Sport-Analysis/main/Dataset_Compressed/stat.bz2). (in .bz2 format, please use Pandas to read)
+
 ## Theoretical Context
 Structural fold: the overlap of groups that have differing previous experience within a team. For example, if two football teams merge to create one, there may be some players who have represented both teams, creating an overlap in experience – these players would represent the structural fold. The 'Game Changer' paper argues that to generate creative success, there should be a variety of past experiences within a team, otherwise a reduction of innovation will lead to conformity. However, this variety of experience stresses the importance of the structural fold – to channel communication and create common understanding, attributing to success.
 
